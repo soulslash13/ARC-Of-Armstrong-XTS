@@ -1,0 +1,252 @@
+body {
+	text-align:center;
+	background-image: url(background.png);
+	background-attachment: fixed;
+	font-family: Trebuchet MS;
+}
+	
+#wrapper {					
+	width: 850px;
+	margin: 0 auto;
+	border: 3px solid #0000A0;
+	text-align:left;
+	background-color:#98AFC7;
+}
+
+#IEroot #wrapper {
+	width: 850px;
+}
+
+.menu {
+	margin-top:10px;
+	margin-left: 8.25em;
+}
+
+#IEroot .menu {
+	margin-top: 25px;
+	margin-left: 8em;
+	margin-bottom: 5px;
+}
+
+.menu a {
+	width: 7.75em;
+	display: block;
+	text-align: center;
+	font-weight:bold;
+	font-family:Trebuchet MS;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.menu ul {
+	
+	padding-left: -2px;
+	list-style: none;
+	float: left;
+	width: 100%
+}
+
+.menu li {
+	color: white;
+	list-style:none;
+	text-size: 18pt;
+	height: .7em;
+	float: left;
+	background-image: url(menu_bg.png);
+}
+
+#IEroot .menu a {
+	background-image: url(menu_bg.png);
+	text-decoration: none;
+}
+
+#IEroot .menu a:hover {
+	color: white;
+	background-image: url(menu_bg_hover.png);	
+}
+
+#IEroot .menu a:active {
+	text-decoration: underline;
+}
+
+#IEroot .menu a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.banner {
+	background: url(arclogo2.png);
+	width: 850px; 
+	height:155px;
+	border-bottom: 3px #000065 solid;
+	margin-bottom: -5px;
+}
+
+#IEroot .banner {
+	background: url(arclogo2.png) no-repeat;
+	width: 900px;
+	height:155px;
+	border-bottom: none;
+	margin-bottom: -7px;
+}
+
+.news {
+	float: left;
+	width: auto;
+	height: 649px;
+	margin-top: -27px;
+	padding-left:0em;
+	margin-left: 10px;
+	font-family: Trebuchet MS;
+	background-color: #000065;
+}
+
+#IEroot .news {
+	float: left;
+	width: auto;
+	height: 649px;
+	margin-top: -44px;
+	padding-left:0em;
+	margin-left: 15px;
+	font-family: Trebuchet MS;
+	background-color: #000065;
+}
+
+.news h3 {
+	margin-left: -1.25em;
+	margin-top: 30px;
+	text-decoration: underline;
+	color: white;
+}
+
+h3 {
+	padding-left:2em;
+}
+
+ul.nav {
+	list-style-type: none;
+	border-bottom: 1px solid #98AFC7;
+	padding-left: 10px;
+	margin-left: -10px;
+	background-color: #98AFC7;
+}
+
+#IEroot ul.nav {
+	list-style-type: none;
+	border-top: 1px solid #98AFC7;
+	border-bottom: none;
+	padding-left: 10px;
+	margin-left: -10px;
+	background-color: #98AFC7;
+}
+
+ul.nav li {
+	font-size: 14px;
+}
+
+ul.nav a { 
+	display: block;
+	width: 10em;
+	border-top: 1px solid #98AFC7;
+	border-bottom: none;
+	padding: 5px 15px 5px 15px;
+	background-color: #000065;
+	text-decoration: none;
+	color: white;
+	border-left: none;
+	border-right: none;
+}
+
+#IEroot ul.nav a { 
+	display: block;
+	width: 10em;
+	border-top: none;
+	padding: 5px 15px 5px 15px;
+	background-color: #000065;
+	text-decoration: none;
+	color: white;
+	border-left: none;
+	border-right: none;
+}
+
+#IEroot ul.nav a:hover {
+	background-color: blue;
+}
+
+.main {
+	width: 73%;
+	height: 605px;
+	margin-top: 4em;
+	margin-bottom: 30px;
+	padding-top: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 193px;
+	background-color: white;
+}
+
+#IEroot .main {
+	width: 625px;
+	height: 600px;
+	margin-top: 1em;
+	margin-bottom: 30px;
+	padding-top: 1px;
+	padding-left: 8px;
+	padding-right: 9px;
+	margin-left: 195px;
+	background-color: white;
+}
+
+.main img {
+	float: right;
+	border: 1px solid blue;
+	width: 200px;
+	height 200px;
+}
+
+#IEroot .main img {
+	float: right;
+	border: 1px solid blue;
+	margin-left: 12px;
+	margin-right: 5px;
+}
+
+
+.main h3 {
+	margin-left: -2em;
+	font-size: 16pt;
+}
+
+.main h3 {
+	margin-top: 10px;
+	margin-left: -2em;
+	font-size: 16pt;
+}
+
+#gallery {
+	padding-top:1em;
+	text-align:right;
+}
+
+#IEroot #gallery {
+	padding-top:1em;
+	text-align:right;
+}
+
+.photo img {
+	border:1px solid #666;
+	padding:4px;
+	background-color:#ffffff;
+	text-align:right;
+	width: 150px;
+	height: 150px;
+}
+
+.figure {
+	float:left;
+	width:220px;
+	margin: 10px 10px 10px 10px;
+	text-align:right;
+}
+
